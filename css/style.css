@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans:ital,wght@0,700;1,400&display=swap');
+
+*{
+     padding: 0;
+     margin: 0;
+}
+body{
+     background-color: black;
+}
+.navbar{
+     box-shadow: 4px 4px 4px rgb(23 22 25);
+}
+header img{
+     margin: 0px auto;
+     width: 100%;
+     height: 660px;
+}
+.logo{
+     position: absolute;
+     top: 0%;
+     left: 5%;
+     color: red;
+     font-size: 50px;
+     font-family: 'Montserrat', sans-serif;
+     box-shadow: 4px 4px 4px rgb(23 22 25);
+}
+.bts{
+     position: absolute;
+     top: 2%;
+     left: 85%;
+     /* border: 2px solid greenyellow; */
+     
+}
+.bts i{
+position: absolute;
+left: 1%;
+top: 23%;
+}
+.btn{
+     padding: 5px 23px;
+     font-family: 'Merriweather', serif;
+     border-radius: 10px;
+     background-color: red;
+     color: white;
+     cursor: pointer;
+     transition: 0.2s ease-in-out;
+}
+.btn:hover{
+     transform: scale(1.02);
+}
+.head{
+     position: absolute;
+    top: 30%;
+    left: 19%;
+    /* border: 2px solid greenyellow; */
+}
+.he{
+     color: white;
+     font-size: 60px;
+     font-family: 'Merriweather', serif;
+     margin: 22px 2px;
+     box-shadow: 5px 5px 5px rgb(23 22 25);
+     position: absolute;
+    
+}
+
+h2{
+     color: white;
+     font-size: 40px;
+     font-family: 'Merriweather', serif;   
+     margin: 22px 179px;
+     
+}
+p{
+     color: white;
+     font-size: 20px;
+     font-family: 'Merriweather', serif;  
+     margin: 1px 174px;    
+}
+.search{
+     margin: 10px 295px;
+}
+.search input{
+     padding: 15px 129px;
+     transition: 0.2s ease-in-out;
+     box-shadow: 5px 5px 5px rgb(23 22 25);
+}
+.search input:hover{
+     transform: scale(1.02);
+}
+.bt{
+     padding: 15px 31px;
+     background-color: red;
+      
+     cursor: pointer;
+     box-shadow: 4px 4px 4px rgb(118 113 137);
+     transition: 0.2s ease-in-out;
+}
+.bt:hover{
+color: white;
+transform: scale(1.02);
+}
+.container{
+     border: 2px solid white;
+     height: 330px;
+     box-shadow: 4px 4px 4px rgb(140 47font-family: 'Merriweather', serif;  234) ;
+}
+.line{
+     display: flex;
+}
+#pe{
+     position: absolute;
+    top: 111%;
+}
+.line img{
+     position: absolute;
+    left: 66%;
+}
+.container1{
+     border: 2px solid white;
+     height: 330px;
+     box-shadow: 4px 4px 4px rgb(140 47 234);
+}
+.hre{
+     box-shadow: 4px 4px 4px rgb(140 47 234);
+}
+.hr{
+     position: absolute;
+     box-shadow: 4px 4px 4px rgb(140 47 234);
+    left: 49%;
+    bottom: -63%;
+}
+#p{
+     position: absolute;
+    
+     left: 49%;
+     bottom: -73%; 
+}
+.hrs{
+     position: absolute;
+     box-shadow: 4px 4px 4px rgb(140 47 234);
+    left: 49%;
+    bottom: -100%;
+}
+#ps{
+     position: absolute;
+    
+     left: 49%;
+     bottom: -111%; 
+}
+.container2 {
+     height: 400px;
+     box-shadow: 4px 4px 4px rgb(140 47 234);
+}
+.container2 img{
+     position: absolute;
+    left: 63%;
+}
+.he{
+     position: absolute;
+     box-shadow: 4px 4px 4px rgb(140 47 234);
+    top: -43%;
+    left: 2%;
+}
+.hes{
+     position: absolute;
+     box-shadow: 4px 4px 4px rgb(140 47 234);
+    top: 229%;
+    left: 2%;  
+}
+#pes{
+     position: absolute;
+     top: 244%;
+}
+#he1{
+     color: white;
+     font-family: 'Merriweather', serif; 
+     text-align: center;
+     margin-top: 47px;
+    
+     margin-top: 47px;
+    font-size: 40px;
+}
+.container3{
+     height: 400px;
+     border: 2px solid blue;
+}
+.btnes{
+     display: flex;
+     flex-direction: column;
+     width: 25%;
+     margin-left: 38%;
+     margin-top: 20px;
+}
+.btns{
+     margin-bottom: 10px;
+     font-family: 'Merriweather', serif; 
+     padding: 6px 2px;
+     background-color: brown;
+}
+.icon{
+     color: rgb(51 59 148);
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+    left: 61%;
+    top: 294%;
+    gap: 15px;
+}
+.icon i{
+     font-size: 28px;
+     cursor: pointer;
+}
